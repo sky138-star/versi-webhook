@@ -1,24 +1,18 @@
-# 🤖 Telegram Photo Prompt Bot (Webhook Version)
+# Telegram Photo Prompt Bot (Webhook Version) 🤖📷
 
-Bot Telegram untuk menganalisis foto menjadi deskripsi prompt AI (image-to-text) menggunakan OpenAI GPT-4o-mini.
+Bot Telegram yang menganalisis foto dan menjelaskan isinya menggunakan OpenAI GPT-4o-mini—with webhook otomatis.
 
-## 🚀 Deploy ke Railway
-1. Upload project ini ke GitHub.
-2. Di Railway → **New Project → Deploy from GitHub**.
-3. Pilih **Web Service**.
-4. Isi Environment Variables:
-   - `BOT_TOKEN` = token bot Telegram dari BotFather
-   - `OPENAI_API_KEY` = API Key OpenAI
-   - `WEBHOOK_URL` = URL Railway kamu (misal `https://nama-app.up.railway.app`)
-5. Deploy, tunggu sampai log menunjukkan:
-```
-🚀 Bot berjalan di port 3000
-```
-6. Kirim foto ke bot → bot membalas deskripsi prompt.
+##  Deploy ke Railway
 
-## ⚙️ Environment Variables
-| Nama            | Deskripsi |
-|-----------------|-----------|
-| BOT_TOKEN       | Token bot Telegram |
-| OPENAI_API_KEY  | API Key OpenAI |
-| WEBHOOK_URL     | URL Railway (contoh: https://nama-app.up.railway.app) |
+Klik tombol ini untuk langsung deploy ke Railway:
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/sky138-star/versi-webhook&envs=BOT_TOKEN,OPENAI_API_KEY&optionalEnvs=&BOT_TOKENDesc=Token+Bot+Telegram&OPENAI_API_KEYDesc=API+Key+OpenAI)
+
+---
+
+## Cara Manual Deploy (Alternatif)
+
+1. Fork atau upload repo ini ke akun GitHub kamu.
+2. Masuk ke [Railway](https://railway.app/) → **New Project** → **Deploy from GitHub**.
+3. Pilih repo `sky138-star/versi-webhook`.
+4. Tambahkan Environment Variables:
